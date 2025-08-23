@@ -15,6 +15,7 @@ shadow = "8.1.1"
 slf4j = "2.0.17"
 mcp = "0.6.0"
 dokka = "2.0.0"
+dokka-mkdocs = "0.5.2"
 jetsign = "45.47"
 testcontainers = "1.19.7"
 kover = "0.9.1"
@@ -52,6 +53,7 @@ logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "lo
 oshai-kotlin-logging = { module = "io.github.oshai:kotlin-logging", version.ref = "oshai-logging" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 dokka-gradle-plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
+dokka-mkdocs-plugin = { module = "dev.tonholo.mkdocs:dokka-mkdocs-plugin", version.ref = "dokka-mkdocs" }
 mcp = { module = "io.modelcontextprotocol:kotlin-sdk", version.ref = "mcp" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
 jetsign-gradle-plugin = { module = "com.jetbrains:jet-sign", version.ref = "jetsign" }
