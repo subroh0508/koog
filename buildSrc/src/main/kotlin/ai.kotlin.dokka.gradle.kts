@@ -1,5 +1,6 @@
 plugins {
     id("org.jetbrains.dokka")
+    id("dev.opensavvy.dokka-mkdocs")
 }
 
 dokka {

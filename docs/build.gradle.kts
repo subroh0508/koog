@@ -5,10 +5,8 @@ version = rootProject.version
 
 plugins {
     id("ai.kotlin.jvm")
-    id("ai.kotlin.dokka")
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.knit)
-    alias(libs.plugins.dokka.mkdocs)
 }
 
 dependencies {
@@ -26,7 +24,7 @@ dependencies {
     dokka(project(":agents:agents-features:agents-features-trace"))
     dokka(project(":agents:agents-features:agents-features-tokenizer"))
     dokka(project(":agents:agents-mcp"))
-    dokka(project(":agents:agents-test"))
+    //dokka(project(":agents:agents-test"))
     dokka(project(":agents:agents-tools"))
     dokka(project(":agents:agents-utils"))
     dokka(project(":agents:agents-ext"))
