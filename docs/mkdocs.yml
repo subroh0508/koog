@@ -41,9 +41,6 @@ nav:
   - Examples: examples.md
   - API reference: https://api.koog.ai/
 
-# !!! EMBEDDED DOKKA START, DO NOT COMMIT !!! #
-# !!! EMBEDDED DOKKA END, DO NOT COMMIT !!! #
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

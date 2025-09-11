@@ -1,6 +1,5 @@
 plugins {
     id("org.jetbrains.dokka")
-    id("dev.opensavvy.dokka-mkdocs")
 }
 
 dokka {
@@ -32,4 +31,8 @@ dokka {
             packageListUrl("https://kotlinlang.org/api/kotlinx.serialization/package-list")
         }
     }
+}
+
+dependencies {
+    dokkaPlugin("org.jetbrains.dokka:gfm-plugin:2.0.0")
 }
